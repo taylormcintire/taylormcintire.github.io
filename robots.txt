@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /blog/post-template.html
+Sitemap: https://taylormcintire.com/sitemap.xml
