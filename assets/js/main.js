@@ -22,7 +22,7 @@
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       if (form.querySelector('[name="_gotcha"]').value) return; // honeypot tripped
-      if (form.action.indexOf('YOUR_FORM_ID') !== -1) {
+      if (form.action.indexOf('xrpeqvow') !== -1) {
         status.className = 'form-status err';
         status.textContent = 'The contact form isn\u2019t connected yet. Please reach out on LinkedIn for now.';
         return;
