@@ -31,7 +31,7 @@ python3 -m http.server 8000
 ## Before going live (to do)
 
 1. **Contact form (Formspree):** create a free form at https://formspree.io, then in `index.html`
-   replace `xrpeqvow` in `action="https://formspree.io/f/xrpeqvow"` with your form ID.
+   the form posts to `https://formspree.io/f/xrpeqvow` (delivers to contact@taylormcintire.com). To change it, replace the ID in index.html.
    Until that's done, the form shows a friendly "not connected yet" message instead of sending.
    The hidden `_gotcha` field is a honeypot for spam bots; leave it in place.
 2. **Headshot:** save a square photo (at least 460x460) as `assets/img/headshot.jpg`, then in
